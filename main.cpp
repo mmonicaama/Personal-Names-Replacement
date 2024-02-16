@@ -5,6 +5,10 @@
 #include "Replacement.hpp"
 #include "dependencies/include/nlohmann/json.hpp"
 
+// Overall, the code is well-structured and nicely done. The usage of STL containers and <regex> library is commendable.
+// Try to keep the main function as little as possible. Separate the "jsonify" functionality from it.
+// Well done!
+
 int main() {
     try {
         Replacement r("database.txt", "input.txt");
